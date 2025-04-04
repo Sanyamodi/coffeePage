@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    color: white;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F5F5DC;
+}
+
+.container{
+    width: 100%;
+    height: 20rem;
+    background-image: url(https://i.pinimg.com/736x/61/51/cc/6151cc033e40ccbf4c1aa3039edd56cf.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.87;
+}
+
+.header-content{
+    width: 100%;
+    height: 5rem;
+    padding: 1rem;
+    font-size: 1rem;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.head-nav{
+    width: 30%;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: space-between;
+}
+
+#search img{
+    height: 1.5rem;
+
+}
+
+.tagline{
+    color: white;
+    font-size: 2.15rem;
+    position:relative;
+    top: 7rem;
+    left: 2rem;
+}
+
+.order{
+    border-radius: 2rem;
+    padding: 8px 20px;
+}
+
+.list{
+    padding: .8rem;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.item{
+display: flex;
+flex-direction: column;
+padding: 2rem;
+}
+
+.item img{
+    height: 3.5rem;
+}
+
+.menu{
+    width: 100vw;
+    height: 64rem;
+    background-color: white;
+}
+
+spl-heading {
+    display: flex;
+    align-self: center;
+}
+
+.spl-heading h2{
+    text-align: center;
+    padding: 0.6rem;
+}
+
+.spl-items{
+display: flex;
+justify-content: space-around;
+margin-bottom: 2.3rem;
+padding: 1rem;
+}
+
+.box{
+    height: 26rem;
+    width: 19rem;
+    background-color: rgb(242, 239, 239);
+    border-radius: 0.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.box img{
+    height: 20rem;
+    width: 16rem;
+
+}
+
+.item-details{
+    padding: 0.7rem;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.4rem;
+}
+
+.price button{
+    border-radius: 0.3rem;
+    color: white;
+    background-color: black;
+    align-self: end;
+}
+
+.more-product{
+    width: 100vw;
+    height: 16.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.more-product button{
+    width: 380px;
+    height:35px;
+    color: white;
+    background-color: #453020;
+    border-radius: 2rem;
+    font-size: 1.3rem;
+    margin: 2rem;
+}
+
+.feedback{
+    width: 100vw;
+    height: 24rem;
+    background-color: white;
+    padding: 0.7rem;
+}
+
+.feedback-heading{
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.customer-feedback{
+display: flex;
+justify-content: space-around;
+}
+
+.customer{
+    width: 25rem;
+    height: 15rem;
+    background-color: rgb(242, 239, 239);
+    border-radius: 0.6rem;
+    border: 1px solid black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease ;
+}
+
+.customer:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+border: 1px solid #453020;
+}
+
+.customer-info{
+    display: flex;
+    align-items: center;
+}
+
+.customer-profile{
+    height: 3rem;
+    margin: 1rem;
+}
+
+.msg{
+    margin: 0.8rem;
+}
+
+.more-info{
+    width: 100vw;
+    height: 16.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.details{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.styled-email {
+    width: 500px;
+    height: 32px;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.details button{
+    width: 380px;
+    height:35px;
+    color: white;
+    background-color: #453020;
+    border-radius: 2rem;
+    font-size: 1.3rem;
+    margin: 2rem;
+}
+
+.footer-content{
+    width: 100%;
+    height: 12rem;
+    background-color: #453020;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.privacy{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+}
